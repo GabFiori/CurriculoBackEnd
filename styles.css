@@ -59,6 +59,10 @@ body {
     color: #F67E31;
 }
 
+.informacoes-contato {
+    max-width: 50%;
+}
+
 .informacoes-contato ul {
     list-style: none;
     text-align: right;
@@ -68,17 +72,14 @@ body {
     font-size: 14px;
     margin-bottom: 5px;
     color: #777;
+    word-break: break-all;
+    overflow-wrap: anywhere;
 }
 
 .informacoes-contato ul li a {
     color: #777;
     text-decoration: none;
 }
-
-.informacoes-contato ul li a:hover {
-    color: #333;
-}
-
 .conteudo section {
     margin-bottom: 30px;
 }
